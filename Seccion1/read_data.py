@@ -24,6 +24,6 @@ def prepareData(inFilename: str, outFilename: str):
 
     else:
 
-        return print("Se ha limpieado tu archivo")
+        return print("Se ha modificado tu archivo")
 
 prepareData("../Dataset/data_prueba_tecnica.csv", "../Seccion1/results/data_prueba_tecnica_cleaned.csv")
