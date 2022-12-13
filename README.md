@@ -27,3 +27,12 @@ python -m virtualenv venv
 Donde *venv* es el nombre del directorio del entorno virtual.
 
 Veremos como se ha creado el directorio y para activarlo nos situamos en el directorio *venv*, entramos a la carpeta Scripts y ejecutamos el archivo *activate*.
+
+Teniendo nuestro entorno activado procedemos a situarnos en la raíz de nuestro directorio y ejecutamos lo siguiente:
+
+```console
+pip install -r requirements.txt
+```
+Hasta este momento se tiene practicamente todo para la ejecución de los scripts contenidos en este repositorio.
+
+*Es importante que todo esto se realiza desde la consola de su dispositivo.
