@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS companies (
 
 CREATE TABLE IF NOT EXISTS charges (
     id_charge VARCHAR(45) PRIMARY KEY NOT NULL,
-    amount DECIMAL(10,2) NOT NULL,
+    amount DECIMAL(40,2) NOT NULL,
     status VARCHAR(30) NOT NULL,
     created_at DATE NOT NULL,
     paid_at DATE
