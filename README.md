@@ -12,7 +12,9 @@ En este apartado de igual forma me apoyé en Python para realizar esta tarea, cr
 
 ![Diagrama de entidad relación](https://github.com/VivaldoGP/prueba-tecnica/blob/main/ER_diagram.png)
 
-Los scripts para la extracción y transformación de los datos se encuentran en la carpeta [Seccion1](https://github.com/VivaldoGP/prueba-tecnica/tree/main/Seccion1) de este repositorio, de igual forma en esta carpeta se encuentran dos mas, [DB](https://github.com/VivaldoGP/prueba-tecnica/tree/main/Seccion1/DB) en el que se encuentra el esquema de la base de datos, su creción, una consulta simple para comprobar la relación entre las tablas y la importación de los archivos generados anteriormente.
+Los scripts para la extracción y transformación de los datos se encuentran en la carpeta [Seccion1](https://github.com/VivaldoGP/prueba-tecnica/tree/main/Seccion1) de este repositorio, de igual forma en esta carpeta se encuentran dos mas, [DB](https://github.com/VivaldoGP/prueba-tecnica/tree/main/Seccion1/DB) en el que se encuentra el esquema de la base de datos, su creción, una consulta simple para comprobar la relación entre las tablas, la importación de los archivos csv generados anteriormente y un backup de la base de datos por si se desea importar.
+
+*Importante: para poder ejecutar la sentencia **COPY** los archivos deben estar en la carpeta pública del usuario, ya que esta cuenta con los permisos para realizar dicha acción.
 
 ### Requerimentos
 Para este proyecto se hace uso de Python en su versión 3.11, la cual se puede descargar desde el siguiente [link](https://www.python.org/), como *DBMS* se optó por PostgreSQL en su versión 14, la elección de esta base de datos fue primordialmente por la experiencia previa, además de su practicidad y facilidad de uso, su interfaz gráfica(pgAdimn 4) es muy amigable para el usuario, su consola igualmente es fácil de usar y sus comandos básicos son sencillos. 
@@ -39,3 +41,23 @@ Hasta este momento se tiene practicamente todo para la ejecución de los scripts
 
 *Es importante que todo esto se realiza desde la consola de su dispositivo.
 
+## Seccion2
+Creación API
+Objetivo: Creación e implementación de una apliación.
+Problema: Calcular el numero faltante de un conjunto de los primeros 100 números naturales del cual se extrajo uno.
+
+### Especifiaciones
+- Conjunto de los primeros 100 números naturale
+- Un método Extract para extraer cierto número deseado
+- Debe poder calcular que número se extrajo
+- Validación del inpunt, que sea número y menor a 100
+- Ejecutarse con un argumento introducido por el usuario
+
+### Solución
+Para esta tarea decidí crear una clase que tome como atributo de entrada un número que será el límite del rango de los números naturales, esto con la finalidad de que la clase no esté limitada a unicamente los primeros 100 números, se creó un arreglo espaciado con la cantidad de elementos establecidos en el atributo de la clase, después añadí atributos para poder realizar el cálculo de el elemento extraido, la lógica que seguí fue sumar todos los elementos del arreglo y asignarlo a un atributo de la clase, después a esa suma restar el número extraido por el usuario e igualmente asignarlo a un atributo de la clase, despúes realicé la resta de esas dos cantidades y el resultado es el valor que el usuario introdujo.
+
+Este problema se podría ampliar aplicando un algoritmo que devuelva la posición del número extraido en el array, un ejemplo podría ser el algortimo de búsqueda binaria.
+
+La validación del input del usuario la realicé de modo que no pudiera avanzar hasta que el tipo de dato de entrada cumpliera con las condiciones establecidas.
+
+El script se encuentra en la carpeta [Seccion2](https://github.com/VivaldoGP/prueba-tecnica/tree/main/Seccion2)
