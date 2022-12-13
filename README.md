@@ -11,3 +11,12 @@ Una vez que se tiene el archivo sin esta particularidad procedí a inspeccionar 
 En este apartado de igual forma me apoyé en Python para realizar esta tarea, creando una función que tomaba ciertos párametros de entrada y de esta manera extraer las columnas deseadas del archivo csv original, exportando la información y diviendola en partes mas pequeñas, teniendo un archivo individual para las tablas del esquema de la base de datos, en el formato de las mismas para realizar la importación de manera eficaz.
 
 ![Diagrama de entidad relación](https://github.com/VivaldoGP/prueba-tecnica/blob/main/ER_diagram.png)
+
+### Requerimentos
+Para este proyecto se hace uso de Python en su versión 3.11, la cual se puede descargar desde el siguiente ![link](https://www.python.org/), como *DBMS* se optó por PostgreSQL en su versión 14, la elección de esta base de datos fue primordialmente por la experiencia previa, además de su practicidad y facilidad de uso, su interfaz gráfica(pgAdimn 4) es muy amigable para el usuario, su consola igualmente es fácil de usar y sus comandos básicos son sencillos. 
+
+Se trabajó con un entorno virtual con la finalidad de poder replicar este repositorio:
+```python
+
+import numpy as np
+```
