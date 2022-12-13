@@ -12,6 +12,8 @@ En este apartado de igual forma me apoyé en Python para realizar esta tarea, cr
 
 ![Diagrama de entidad relación](https://github.com/VivaldoGP/prueba-tecnica/blob/main/ER_diagram.png)
 
+Los scripts para la extracción y transformación de los datos se encuentran en la carpeta [Seccion1](https://github.com/VivaldoGP/prueba-tecnica/tree/main/Seccion1) de este repositorio, de igual forma en esta carpeta se encuentran dos mas, [DB](https://github.com/VivaldoGP/prueba-tecnica/tree/main/Seccion1/DB) en el que se encuentra el esquema de la base de datos, su creción, una consulta simple para comprobar la relación entre las tablas y la importación de los archivos generados anteriormente.
+
 ### Requerimentos
 Para este proyecto se hace uso de Python en su versión 3.11, la cual se puede descargar desde el siguiente [link](https://www.python.org/), como *DBMS* se optó por PostgreSQL en su versión 14, la elección de esta base de datos fue primordialmente por la experiencia previa, además de su practicidad y facilidad de uso, su interfaz gráfica(pgAdimn 4) es muy amigable para el usuario, su consola igualmente es fácil de usar y sus comandos básicos son sencillos. 
 
@@ -21,7 +23,7 @@ Para instalarlo es suficiente con ejecutar lo siguiente:
 pip install virtualenv
 ```
 Nos situamos en el directorio a trabajar y se ejecuta el comando siguiente:
-```python
+```console
 python -m virtualenv venv
 ```
 Donde *venv* es el nombre del directorio del entorno virtual.
@@ -36,3 +38,4 @@ pip install -r requirements.txt
 Hasta este momento se tiene practicamente todo para la ejecución de los scripts contenidos en este repositorio.
 
 *Es importante que todo esto se realiza desde la consola de su dispositivo.
+
