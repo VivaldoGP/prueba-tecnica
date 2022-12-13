@@ -13,11 +13,17 @@ En este apartado de igual forma me apoyé en Python para realizar esta tarea, cr
 ![Diagrama de entidad relación](https://github.com/VivaldoGP/prueba-tecnica/blob/main/ER_diagram.png)
 
 ### Requerimentos
-Para este proyecto se hace uso de Python en su versión 3.11, la cual se puede descargar desde el siguiente ![link](https://www.python.org/), como *DBMS* se optó por PostgreSQL en su versión 14, la elección de esta base de datos fue primordialmente por la experiencia previa, además de su practicidad y facilidad de uso, su interfaz gráfica(pgAdimn 4) es muy amigable para el usuario, su consola igualmente es fácil de usar y sus comandos básicos son sencillos. 
+Para este proyecto se hace uso de Python en su versión 3.11, la cual se puede descargar desde el siguiente [link](https://www.python.org/), como *DBMS* se optó por PostgreSQL en su versión 14, la elección de esta base de datos fue primordialmente por la experiencia previa, además de su practicidad y facilidad de uso, su interfaz gráfica(pgAdimn 4) es muy amigable para el usuario, su consola igualmente es fácil de usar y sus comandos básicos son sencillos. 
 
 Se trabajó con un entorno virtual con la finalidad de poder replicar este repositorio:
 Para instalarlo es suficiente con ejecutar lo siguiente:
 ```console
-
 pip install virtualenv
 ```
+Nos situamos en el directorio a trabajar y se ejecuta el comando siguiente:
+```python
+python -m virtualenv venv
+```
+Donde *venv* es el nombre del directorio del entorno virtual.
+
+Veremos como se ha creado el directorio y para activarlo nos situamos en el directorio *venv*, entramos a la carpeta Scripts y ejecutamos el archivo *activate*.
