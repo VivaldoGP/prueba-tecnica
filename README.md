@@ -1,5 +1,4 @@
 ## Prueba técnica para la vacante de desarrollador Python JR.
-\i C:/Users/Vivaldo/Documents/personal-projects/prueba-tecnica-nt/Seccion1/DB/Schema.sql
 
 ### Sección 1
 
